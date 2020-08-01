@@ -1,2 +1,2 @@
-$link = mysqli_connect("app.comet-server.ru", "15", "", "CometQL_v1");
+$link = mysqli_connect("", "15", "", "CometQL_v1");
             mysqli_query (  $link, "INSERT INTO pipes_messages (name, event, message)VALUES('web_MainPageChat', '', '{ \"text\":\"My text\",\"name\":\"My name\"}' );" );
